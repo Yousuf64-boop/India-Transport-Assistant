@@ -2,6 +2,8 @@ name: CI
 
 on:
   push:
+    paths-ignore:
+      - 'text2sql-analyst/**'
     branches: [main]
   pull_request:
 
